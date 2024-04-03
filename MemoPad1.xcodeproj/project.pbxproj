@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3529922BBCDDAF001A5564 /* MPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3529902BBCDDAF001A5564 /* MPMasterViewController.m */; };
+		1E3529932BBCDDAF001A5564 /* MPMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3529912BBCDDAF001A5564 /* MPMasterViewController.xib */; };
+		1E3529942BBCEB08001A5564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E88B0172BBBA450006122B5 /* LaunchScreen.storyboard */; };
+		1E3529982BBCEF15001A5564 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3529962BBCEF15001A5564 /* DetailViewController.m */; };
+		1E3529992BBCEF15001A5564 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3529972BBCEF15001A5564 /* DetailViewController.xib */; };
 		1E88B00B2BBBA44F006122B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B00A2BBBA44F006122B5 /* AppDelegate.m */; };
 		1E88B00E2BBBA44F006122B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B00D2BBBA44F006122B5 /* SceneDelegate.m */; };
 		1E88B0112BBBA44F006122B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B0102BBBA44F006122B5 /* ViewController.m */; };
-		1E88B0142BBBA44F006122B5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1E88B0132BBBA44F006122B5 /* Base */; };
 		1E88B0162BBBA450006122B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E88B0152BBBA450006122B5 /* Assets.xcassets */; };
 		1E88B0192BBBA450006122B5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1E88B0182BBBA450006122B5 /* Base */; };
 		1E88B01C2BBBA450006122B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B01B2BBBA450006122B5 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E35298F2BBCDDAF001A5564 /* MPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMasterViewController.h; sourceTree = "<group>"; };
+		1E3529902BBCDDAF001A5564 /* MPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMasterViewController.m; sourceTree = "<group>"; };
+		1E3529912BBCDDAF001A5564 /* MPMasterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPMasterViewController.xib; sourceTree = "<group>"; };
+		1E3529952BBCEF15001A5564 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1E3529962BBCEF15001A5564 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1E3529972BBCEF15001A5564 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		1E88B0062BBBA44F006122B5 /* MemoPad1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoPad1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E88B0092BBBA44F006122B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E88B00A2BBBA44F006122B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,7 +34,6 @@
 		1E88B00D2BBBA44F006122B5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		1E88B00F2BBBA44F006122B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1E88B0102BBBA44F006122B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1E88B0132BBBA44F006122B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E88B0152BBBA450006122B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E88B0182BBBA450006122B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E88B01A2BBBA450006122B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E35299A2BBCEF52001A5564 /* ApplicationSupport */ = {
+			isa = PBXGroup;
+			children = (
+				1E88B01A2BBBA450006122B5 /* Info.plist */,
+				1E88B01B2BBBA450006122B5 /* main.m */,
+				1E88B0152BBBA450006122B5 /* Assets.xcassets */,
+			);
+			name = ApplicationSupport;
+			sourceTree = "<group>";
+		};
 		1E88AFFD2BBBA44F006122B5 = {
 			isa = PBXGroup;
 			children = (
@@ -61,17 +80,20 @@
 		1E88B0082BBBA44F006122B5 /* MemoPad1 */ = {
 			isa = PBXGroup;
 			children = (
+				1E88B0172BBBA450006122B5 /* LaunchScreen.storyboard */,
 				1E88B0092BBBA44F006122B5 /* AppDelegate.h */,
 				1E88B00A2BBBA44F006122B5 /* AppDelegate.m */,
 				1E88B00C2BBBA44F006122B5 /* SceneDelegate.h */,
 				1E88B00D2BBBA44F006122B5 /* SceneDelegate.m */,
 				1E88B00F2BBBA44F006122B5 /* ViewController.h */,
 				1E88B0102BBBA44F006122B5 /* ViewController.m */,
-				1E88B0122BBBA44F006122B5 /* Main.storyboard */,
-				1E88B0152BBBA450006122B5 /* Assets.xcassets */,
-				1E88B0172BBBA450006122B5 /* LaunchScreen.storyboard */,
-				1E88B01A2BBBA450006122B5 /* Info.plist */,
-				1E88B01B2BBBA450006122B5 /* main.m */,
+				1E35298F2BBCDDAF001A5564 /* MPMasterViewController.h */,
+				1E3529902BBCDDAF001A5564 /* MPMasterViewController.m */,
+				1E3529912BBCDDAF001A5564 /* MPMasterViewController.xib */,
+				1E3529952BBCEF15001A5564 /* DetailViewController.h */,
+				1E3529962BBCEF15001A5564 /* DetailViewController.m */,
+				1E3529972BBCEF15001A5564 /* DetailViewController.xib */,
+				1E35299A2BBCEF52001A5564 /* ApplicationSupport */,
 			);
 			path = MemoPad1;
 			sourceTree = "<group>";
@@ -134,8 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E88B0162BBBA450006122B5 /* Assets.xcassets in Resources */,
+				1E3529942BBCEB08001A5564 /* LaunchScreen.storyboard in Resources */,
+				1E3529992BBCEF15001A5564 /* DetailViewController.xib in Resources */,
 				1E88B0192BBBA450006122B5 /* Base in Resources */,
-				1E88B0142BBBA44F006122B5 /* Base in Resources */,
+				1E3529932BBCDDAF001A5564 /* MPMasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,20 +174,14 @@
 				1E88B00B2BBBA44F006122B5 /* AppDelegate.m in Sources */,
 				1E88B01C2BBBA450006122B5 /* main.m in Sources */,
 				1E88B00E2BBBA44F006122B5 /* SceneDelegate.m in Sources */,
+				1E3529922BBCDDAF001A5564 /* MPMasterViewController.m in Sources */,
+				1E3529982BBCEF15001A5564 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1E88B0122BBBA44F006122B5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E88B0132BBBA44F006122B5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E88B0172BBBA450006122B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,7 +320,6 @@
 				INFOPLIST_FILE = MemoPad1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +345,6 @@
 				INFOPLIST_FILE = MemoPad1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

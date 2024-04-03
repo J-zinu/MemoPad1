@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MPMasterViewController : UITableViewController
 
-@end
+
+@end IBOutlet
 
 NS_ASSUME_NONNULL_END
