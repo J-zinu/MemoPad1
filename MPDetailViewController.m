@@ -6,26 +6,54 @@
 //
 
 #import "MPDetailViewController.h"
+#import "MemoData.h"
+#import "AppDelegate.h"
 
-@interface MPDetailViewController ()
+//@interface MPDetailViewController ()
 
-@end
+//@end
 
 @implementation MPDetailViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+@synthesize lblTitle = _lblTitle;
+@synthesize lblDate = _lblDate;
+@synthesize tvContent = _tvContent;
+@synthesize sliderFontSize = _sliderFontSize;
+@synthesize btnEdit = _btnEdit;
+@synthesize btnDelete = _btnDelete;
+@synthesize mData;
+
+
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate readMemoFromDatabase];
+    self.mData = [[appDelegate DBData] objectAtIndex:[appDelegate currentMemoRowIndex]];
+    
+    //얻어낸 MemoData 오브젝트에서 제목, 날짜, 내용을 해당 UI 요소의 .text 속성에 할당한다.
+    _lblDate.text = [self.mData mTitle];
+    _lblTitle.text = [self.mData mDate];
+    _tvContent.text = [self.mData mContent];
+    
+    _tvContent.font = [UIFont fontWithName:@"Helvetica" size:12.0];
+
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+//- (void)viewDidLoad {
+//    [super viewDidLoad];
+//    // Do any additional setup after loading the view from its nib.
+//}
+
+
+- (IBAction)changeFontSize:(id)sender { }
+
+- (IBAction)editMemo:(id)sender { }
+
+- (IBAction)deleteMemo:(id)sender { }
+
+
 
 @end

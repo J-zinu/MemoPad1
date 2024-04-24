@@ -6,10 +6,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MemoData.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DetailViewController : UIViewController
+@interface MPDetailViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *lblTitle;
+@property (weak, nonatomic) IBOutlet UILabel *lblDate;
+@property (weak, nonatomic) IBOutlet UITextView *tvContent;
+@property (weak, nonatomic) IBOutlet UISlider *sliderFontSize;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *btnEdit;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *btnDelete;
+@property (weak, nonatomic) MemoData *mData;
+- (IBAction)changeFontSize:(id)sender;
+- (IBAction)editMemo:(id)sender;
+- (IBAction)deleteMemo:(id)sender;
 
 @end
 

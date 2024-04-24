@@ -10,6 +10,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
             <connections>
+                <outlet property="btnDelete" destination="4eK-EY-hIi" id="YSO-1S-Do5"/>
+                <outlet property="btnEdit" destination="kDU-DU-GbD" id="ocO-sN-JyY"/>
+                <outlet property="lblDate" destination="T5j-6U-eIv" id="dPU-Ei-hYw"/>
+                <outlet property="lblTitle" destination="PP4-MJ-NwR" id="Jxm-ad-JMb"/>
+                <outlet property="sliderFontSize" destination="hOQ-q4-PsC" id="YRs-F1-Tqr"/>
+                <outlet property="tvContent" destination="cD6-FJ-Rnl" id="uHn-zV-RnT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -48,7 +54,7 @@
                     </items>
                 </toolbar>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="cD6-FJ-Rnl">
-                    <rect key="frame" x="0.0" y="285" width="393" height="365"/>
+                    <rect key="frame" x="21" y="271" width="350" height="311"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
