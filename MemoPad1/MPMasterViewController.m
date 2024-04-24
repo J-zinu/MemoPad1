@@ -6,6 +6,9 @@
 //
 
 #import "MPMasterViewController.h"
+#import "SceneDelegate.h"
+#import "MemoData.h"
+#import "AppDelegate.h"
 
 @interface MPMasterViewController ()
 
