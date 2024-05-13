@@ -7,10 +7,12 @@
 
 #import <UIKit/UIKit.h>
 #import "MemoData.h"
-
+#import "MPEditViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MPDetailViewController : UIViewController
+@interface MPDetailViewController : UIViewController <UIAlertViewDelegate>{
+    
+}
 @property (weak, nonatomic) IBOutlet UILabel *lblTitle;
 @property (weak, nonatomic) IBOutlet UILabel *lblDate;
 @property (weak, nonatomic) IBOutlet UITextView *tvContent;
@@ -18,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *btnEdit;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *btnDelete;
 @property (weak, nonatomic) MemoData *mData;
+
+//- (IBAction)changeFontSize:(id)sender;
 - (IBAction)changeFontSize:(id)sender;
 - (IBAction)editMemo:(id)sender;
 - (IBAction)deleteMemo:(id)sender;

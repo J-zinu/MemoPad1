@@ -10,10 +10,11 @@
 #import "MemoData.h"
 #import "AppDelegate.h"
 #import "MPDetailViewController.h"
+#import "MPWriteViewController.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MPMasterViewController : UITableViewController
-
 
 @end IBOutlet
 

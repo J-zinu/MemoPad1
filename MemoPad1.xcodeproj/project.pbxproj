@@ -10,7 +10,6 @@
 		1E3529922BBCDDAF001A5564 /* MPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3529902BBCDDAF001A5564 /* MPMasterViewController.m */; };
 		1E3529932BBCDDAF001A5564 /* MPMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3529912BBCDDAF001A5564 /* MPMasterViewController.xib */; };
 		1E3529942BBCEB08001A5564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E88B0172BBBA450006122B5 /* LaunchScreen.storyboard */; };
-		1E3700EA2BD89725007A39B6 /* Memopad.db in Resources */ = {isa = PBXBuildFile; fileRef = 1E3700E92BD89725007A39B6 /* Memopad.db */; };
 		1E3700ED2BD89780007A39B6 /* MemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3700EC2BD89780007A39B6 /* MemoData.m */; };
 		1E3700F22BD89947007A39B6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3700F12BD89947007A39B6 /* libsqlite3.tbd */; };
 		1E3700F62BD8C918007A39B6 /* MPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E3700F52BD8C918007A39B6 /* MPDetailViewController.xib */; };
@@ -21,13 +20,17 @@
 		1E88B0162BBBA450006122B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E88B0152BBBA450006122B5 /* Assets.xcassets */; };
 		1E88B0192BBBA450006122B5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1E88B0182BBBA450006122B5 /* Base */; };
 		1E88B01C2BBBA450006122B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B01B2BBBA450006122B5 /* main.m */; };
+		1EE606882BE9CA9100B53D8F /* MPWriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE606862BE9CA9100B53D8F /* MPWriteViewController.m */; };
+		1EE606892BE9CA9100B53D8F /* MPWriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE606872BE9CA9100B53D8F /* MPWriteViewController.xib */; };
+		1EE606922BEA0DC200B53D8F /* MPEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE606902BEA0DC200B53D8F /* MPEditViewController.m */; };
+		1EE606932BEA0DC200B53D8F /* MPEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE606912BEA0DC200B53D8F /* MPEditViewController.xib */; };
+		1EE606952BEB122E00B53D8F /* Memopad.db in Resources */ = {isa = PBXBuildFile; fileRef = 1EE606942BEB122E00B53D8F /* Memopad.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E35298F2BBCDDAF001A5564 /* MPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMasterViewController.h; sourceTree = "<group>"; };
 		1E3529902BBCDDAF001A5564 /* MPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMasterViewController.m; sourceTree = "<group>"; };
 		1E3529912BBCDDAF001A5564 /* MPMasterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPMasterViewController.xib; sourceTree = "<group>"; };
-		1E3700E92BD89725007A39B6 /* Memopad.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Memopad.db; sourceTree = "<group>"; };
 		1E3700EB2BD89780007A39B6 /* MemoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoData.h; sourceTree = "<group>"; };
 		1E3700EC2BD89780007A39B6 /* MemoData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoData.m; sourceTree = "<group>"; };
 		1E3700F12BD89947007A39B6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
@@ -45,6 +48,13 @@
 		1E88B0182BBBA450006122B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E88B01A2BBBA450006122B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E88B01B2BBBA450006122B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE606852BE9CA9100B53D8F /* MPWriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPWriteViewController.h; sourceTree = "<group>"; };
+		1EE606862BE9CA9100B53D8F /* MPWriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPWriteViewController.m; sourceTree = "<group>"; };
+		1EE606872BE9CA9100B53D8F /* MPWriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPWriteViewController.xib; sourceTree = "<group>"; };
+		1EE6068F2BEA0DC200B53D8F /* MPEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPEditViewController.h; sourceTree = "<group>"; };
+		1EE606902BEA0DC200B53D8F /* MPEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPEditViewController.m; sourceTree = "<group>"; };
+		1EE606912BEA0DC200B53D8F /* MPEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPEditViewController.xib; sourceTree = "<group>"; };
+		1EE606942BEB122E00B53D8F /* Memopad.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = Memopad.db; path = ../../Memopad.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +72,7 @@
 		1E35299A2BBCEF52001A5564 /* ApplicationSupport */ = {
 			isa = PBXGroup;
 			children = (
-				1E3700E92BD89725007A39B6 /* Memopad.db */,
+				1EE606942BEB122E00B53D8F /* Memopad.db */,
 				1E88B01A2BBBA450006122B5 /* Info.plist */,
 				1E88B01B2BBBA450006122B5 /* main.m */,
 				1E88B0152BBBA450006122B5 /* Assets.xcassets */,
@@ -113,6 +123,12 @@
 				1E3700F32BD8C918007A39B6 /* MPDetailViewController.h */,
 				1E3700F42BD8C918007A39B6 /* MPDetailViewController.m */,
 				1E3700F52BD8C918007A39B6 /* MPDetailViewController.xib */,
+				1EE606852BE9CA9100B53D8F /* MPWriteViewController.h */,
+				1EE606862BE9CA9100B53D8F /* MPWriteViewController.m */,
+				1EE606872BE9CA9100B53D8F /* MPWriteViewController.xib */,
+				1EE6068F2BEA0DC200B53D8F /* MPEditViewController.h */,
+				1EE606902BEA0DC200B53D8F /* MPEditViewController.m */,
+				1EE606912BEA0DC200B53D8F /* MPEditViewController.xib */,
 				1E35299A2BBCEF52001A5564 /* ApplicationSupport */,
 			);
 			path = MemoPad1;
@@ -176,11 +192,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E88B0162BBBA450006122B5 /* Assets.xcassets in Resources */,
+				1EE606952BEB122E00B53D8F /* Memopad.db in Resources */,
+				1EE606892BE9CA9100B53D8F /* MPWriteViewController.xib in Resources */,
 				1E3700F62BD8C918007A39B6 /* MPDetailViewController.xib in Resources */,
+				1EE606932BEA0DC200B53D8F /* MPEditViewController.xib in Resources */,
 				1E3529942BBCEB08001A5564 /* LaunchScreen.storyboard in Resources */,
 				1E88B0192BBBA450006122B5 /* Base in Resources */,
 				1E3529932BBCDDAF001A5564 /* MPMasterViewController.xib in Resources */,
-				1E3700EA2BD89725007A39B6 /* Memopad.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E88B0112BBBA44F006122B5 /* ViewController.m in Sources */,
+				1EE606882BE9CA9100B53D8F /* MPWriteViewController.m in Sources */,
+				1EE606922BEA0DC200B53D8F /* MPEditViewController.m in Sources */,
 				1E88B00B2BBBA44F006122B5 /* AppDelegate.m in Sources */,
 				1E88B01C2BBBA450006122B5 /* main.m in Sources */,
 				1E3700ED2BD89780007A39B6 /* MemoData.m in Sources */,

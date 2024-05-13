@@ -10,22 +10,44 @@
 #import "MemoData.h"
 #import "AppDelegate.h"
 #import "MPDetailViewController.h"
+#import "MPWriteViewController.h"
 
 @interface MPMasterViewController ()
 
 @end
 
 @implementation MPMasterViewController
+-(IBAction)writeMemo:(id)sender {
+    MPWriteViewController *writeViewController = [[MPWriteViewController alloc] initWithNibName:@"MPWriteViewController" bundle:nil];
+    [self.navigationController presentModalViewController:writeViewController animated:YES];
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    AppDelegate *appDelegate = (AppDelegate *) [[UIApplication sharedApplication] delegate];
+    [appDelegate readMemoFromDatabase];
+    self.title = @"MemoPad";
+ 
+    //아래는 타이틀을 텍스트로 설정하는 것이고
+    //    UIBarButtonItem *btnWrite = [[UIBarButtonItem alloc] initWithTitle:@"Write" style:UIBarButtonItemStylePlain target:self action:@selector(writeMemo)];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    //이것은 아이콘으로 설정하는 것이다.
+    UIBarButtonItem *btnWrite = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(writeMemo:)];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.rightBarButtonItem = btnWrite;
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
+    self.navigationController.navigationBar.tintColor = [UIColor orangeColor];
 }
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    [appDelegate readMemoFromDatabase];
+    [self.tableView reloadData];
+}
+
+
 
 #pragma mark - Table view data source
 

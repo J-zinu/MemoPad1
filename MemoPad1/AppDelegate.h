@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <sqlite3.h>
 #import "SceneDelegate.h"
-
+#import "MemoData.h"
 //@interface AppDelegate : UIResponder <UIApplicationDelegate> {
 @interface AppDelegate : NSObject <UIApplicationDelegate> {
 
@@ -31,9 +31,14 @@
 @property (nonatomic, assign) NSInteger currentMemoSqlIndex;
 @property (nonatomic, assign) NSInteger currentMemoRowIndex;
 
-- (void) checkAndCreateDatabase;
-- (void) readMemoFromDatabase;
+-(void) checkAndCreateDatabase;
+-(void) readMemoFromDatabase;
 
+-(void) writeMemoToDataBaseWithTitle: (NSString*)inputTitle Content: (NSString*)inputContent;
+
+-(void) upDateMemoToDatabaseWithTitle: (NSString*)inputTitle Content:(NSString*)inputContent;
+
+-(void) deleteMemoFromDatabase;
 
 @end
 
