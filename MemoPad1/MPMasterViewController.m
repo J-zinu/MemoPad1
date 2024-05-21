@@ -80,13 +80,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     MPDetailViewController *detailViewController = [[MPDetailViewController alloc] initWithNibName:@"MPDetailViewController" bundle:nil];
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    
  
     AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     [appDelegate setCurrentMemoRowIndex:indexPath.row];
     
+    MemoData *selectedMemo = [appDelegate.DBData objectAtIndex:indexPath.row];
+        appDelegate.currentMemoSqlIndex = selectedMemo.mIndex;
 
-
+    [self.navigationController pushViewController:detailViewController animated:YES];
 
     
 }
