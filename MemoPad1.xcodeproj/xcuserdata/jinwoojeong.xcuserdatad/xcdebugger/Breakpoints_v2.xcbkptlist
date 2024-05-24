@@ -94,8 +94,8 @@
             filePath = "MemoPad1/AppDelegate.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "256"
-            endingLineNumber = "256"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
             landmarkName = "-deleteMemoFromDatabase"
             landmarkType = "7">
          </BreakpointContent>
