@@ -9,6 +9,7 @@
 #import "MemoData.h"
 #import "AppDelegate.h"
 #import "MPEditViewController.h"
+#import "WebViewController.h"
 //@interface MPDetailViewController ()
 
 //@end
@@ -36,10 +37,13 @@
     _lblTitle.text = [self.mData mDate];
     _tvContent.text = [self.mData mContent];
     _tvContent.font = [UIFont fontWithName:@"Helvetica" size:12.0];
-
-    
-    
+        
 }
+- (IBAction)openWeb:(id)sender {
+    WebViewController *webViewController = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+    [self.navigationController pushViewController:webViewController animated:YES];
+}
+
 
 
 //- (void)viewDidLoad {

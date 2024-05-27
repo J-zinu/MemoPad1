@@ -25,6 +25,8 @@
 		1EE606922BEA0DC200B53D8F /* MPEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE606902BEA0DC200B53D8F /* MPEditViewController.m */; };
 		1EE606932BEA0DC200B53D8F /* MPEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE606912BEA0DC200B53D8F /* MPEditViewController.xib */; };
 		1EE606952BEB122E00B53D8F /* Memopad.db in Resources */ = {isa = PBXBuildFile; fileRef = 1EE606942BEB122E00B53D8F /* Memopad.db */; };
+		1EF56ADA2C047811009D06D2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF56AD82C047811009D06D2 /* WebViewController.m */; };
+		1EF56ADB2C047811009D06D2 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EF56AD92C047811009D06D2 /* WebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,9 @@
 		1EE606902BEA0DC200B53D8F /* MPEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPEditViewController.m; sourceTree = "<group>"; };
 		1EE606912BEA0DC200B53D8F /* MPEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPEditViewController.xib; sourceTree = "<group>"; };
 		1EE606942BEB122E00B53D8F /* Memopad.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = Memopad.db; path = ../../Memopad.db; sourceTree = "<group>"; };
+		1EF56AD72C047811009D06D2 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		1EF56AD82C047811009D06D2 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		1EF56AD92C047811009D06D2 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,9 @@
 				1EE6068F2BEA0DC200B53D8F /* MPEditViewController.h */,
 				1EE606902BEA0DC200B53D8F /* MPEditViewController.m */,
 				1EE606912BEA0DC200B53D8F /* MPEditViewController.xib */,
+				1EF56AD72C047811009D06D2 /* WebViewController.h */,
+				1EF56AD82C047811009D06D2 /* WebViewController.m */,
+				1EF56AD92C047811009D06D2 /* WebViewController.xib */,
 				1E35299A2BBCEF52001A5564 /* ApplicationSupport */,
 			);
 			path = MemoPad1;
@@ -194,6 +202,7 @@
 				1E88B0162BBBA450006122B5 /* Assets.xcassets in Resources */,
 				1EE606952BEB122E00B53D8F /* Memopad.db in Resources */,
 				1EE606892BE9CA9100B53D8F /* MPWriteViewController.xib in Resources */,
+				1EF56ADB2C047811009D06D2 /* WebViewController.xib in Resources */,
 				1E3700F62BD8C918007A39B6 /* MPDetailViewController.xib in Resources */,
 				1EE606932BEA0DC200B53D8F /* MPEditViewController.xib in Resources */,
 				1E3529942BBCEB08001A5564 /* LaunchScreen.storyboard in Resources */,
@@ -210,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E88B0112BBBA44F006122B5 /* ViewController.m in Sources */,
+				1EF56ADA2C047811009D06D2 /* WebViewController.m in Sources */,
 				1EE606882BE9CA9100B53D8F /* MPWriteViewController.m in Sources */,
 				1EE606922BEA0DC200B53D8F /* MPEditViewController.m in Sources */,
 				1E88B00B2BBBA44F006122B5 /* AppDelegate.m in Sources */,
